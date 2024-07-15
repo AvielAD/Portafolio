@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import DrawerBar from './components/DrawerBar'
+import { Toolbar } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-      <DrawerBar></DrawerBar>
-      {children}        
+      <DrawerBar>
+        {children}
+      </DrawerBar>
       </body>
 
     </html>
