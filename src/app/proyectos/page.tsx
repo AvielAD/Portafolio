@@ -1,9 +1,4 @@
 'use client'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { CardActionArea, Grid } from '@mui/material';
 
 
 const Page = () => {
@@ -12,36 +7,14 @@ const Page = () => {
     }
     return (
         <>
-            <Grid container direction="row" spacing={3}>
 
                 {
                     infoProyectos.map((item: proyectodto, index: number) => {
                         return (
-                            <Grid item key={index} xs={12} md={4} sm={12} direction="row" justifyContent="center">
-                                <Card sx={{height: "100%"}}>
-                                    <CardActionArea onClick={()=> clickHandle(item.link)}>
-                                        <CardMedia
-                                            component="img"
-                                            height="140"
-                                            image={item.imagen.url}
-                                            alt={item.imagen.titulo}
-                                        />
-                                        <CardContent>
-                                            <Typography gutterBottom variant="h5" component="div">
-                                                {item.titulo}
-                                            </Typography>
-                                            <Typography variant="body2" color="text.secondary">
-                                                {item.descripcion}
-                                            </Typography>
-                                        </CardContent>
-                                    </CardActionArea>
-                                </Card>
-                            </Grid>
-
+                            <div key={index}></div>
                         )
                     })
                 }
-            </Grid>
 
 
         </>
