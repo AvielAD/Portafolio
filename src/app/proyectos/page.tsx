@@ -4,6 +4,9 @@ import CardProyect from '@/app/components/Card'
 const Page = () => {
     return (
         <section className='max-w-screen-2xl mx-auto pt-20'>
+            <div className='text-center font-bold mb-20 font-sans'>
+                <p className='text-4xl'>Portafolio de proyectos</p>
+            </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5 p-5 justify-center'>
                 {
                     infoProyectos.map((item: any, index: number) => {
