@@ -9,6 +9,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Proyectos</title>
+
       <body>
         <HeaderTop></HeaderTop>
         {children}
