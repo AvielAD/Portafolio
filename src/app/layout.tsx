@@ -1,6 +1,6 @@
 import "./globals.css";
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import HeaderTop from '@/app/components/HeaderTop'
+import HeaderTop from '@/components/HeaderTop'
 
 export default function RootLayout({
   children,
