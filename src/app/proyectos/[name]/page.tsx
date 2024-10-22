@@ -1,5 +1,5 @@
 'use client'
-import { infoProyectos } from "../page"
+import { infoProyectos } from "@/utils/datainfo"
 import Image from "next/image"
 const Page = ({ params }: { params: { name: string } }) => {
     const proy = infoProyectos.find(x => x.path === params.name)
