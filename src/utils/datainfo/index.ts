@@ -24,7 +24,19 @@ export const infoProyectos: Array<infoproydto>= [
         objetive: "Plataforma pensada para gestionar un taller de reparacion para dispositivos electronicos",
         tools_tech: "Postgresql - .Net - EF Core - Docker - Nginx - VPS - NextJS - Vercel",
         challenge: "La plataforma tiene un conjunto de caracteristicas interesantes. Al agregar una reparación se cuenta con un listado dinamico para registrar el tipo de dispositivo del que se esta tratando acorde a puntaje de mas frecuentes.. Se cuenta con gestion de estados para una mejor gestion, desde que el dispositivo es ingresado para la reparacion, cuando esta se ha concluido y finalmente entregado.. Contamos con la posibilidad de imprimir ticket con el detalle de la reparación incluyendo el diagnostico reparacion y fechas de interes recepcion y entrega.",
-        imageviews: [ '/assets/plataformas/localfix/localfixform.png', '/assets/plataformas/localfix/localfixsugerencia.png', '/assets/plataformas/localfix/localfixtabla.png']
+        imageviews: [ '/assets/plataformas/localfix/localfix1.png', '/assets/plataformas/localfix/localfix2.png', '/assets/plataformas/localfix/localfix3.png']
+    },
+    {
+        title: "Control Productos",
+        subtitle: "Aplicación Web",
+        image: { alt: "LocalFix", url: "/pmmanager.png" },
+        path: "pmmanager",
+        url: 'https://managerpm.softwarp.net/login',
+        about_client: "Personal - Servicio control inventario.  Claves Acceso.  Usuario: invitado@email.mx .   Contraseña: Invitado",
+        objetive: "Plataforma pensada para gestionar flujo de inventario para productos peresederos con diferentes embalajes",
+        tools_tech: "Postgresql - .Net - EF Core - Docker - Nginx - VPS - NextJS - Vercel",
+        challenge: "La plataforma tiene un conjunto de caracteristicas interesantes. Al agregar una reparación se cuenta con un listado dinamico para registrar el tipo de dispositivo del que se esta tratando acorde a puntaje de mas frecuentes.. Se cuenta con gestion de estados para una mejor gestion, desde que el dispositivo es ingresado para la reparacion, cuando esta se ha concluido y finalmente entregado.. Contamos con la posibilidad de imprimir ticket con el detalle de la reparación incluyendo el diagnostico reparacion y fechas de interes recepcion y entrega.",
+        imageviews: [ '/assets/plataformas/pmmanager/pmmanager1.png', '/assets/plataformas/pmmanager/pmmanager2.png', '/assets/plataformas/pmmanager/pmmanager3.png']
     },
     {
         title: "Inscripción a cursos",
@@ -36,7 +48,7 @@ export const infoProyectos: Array<infoproydto>= [
         objetive: "Plataforma pensada en el seguimiento para la capacitacion de perfiles traine",
         tools_tech: "Postgresql - NodeJs - ExpressJS - NextJS - Docker - Nginx - VPS - Vercel",
         challenge: "Se integran las funcionalidades para asociar Asesor-Curso-Alumnos aplicado a un evento en cierta fecha. Inscripción mediante un formulario personalizado que se crea para cada evento, este formulario es publico se puede encontrar la url generada en la sección eventos.",
-        imageviews: [ '/assets/plataformas/workline/worklineeventos.png', '/assets/plataformas/workline/worklineformulario.png', '/assets/plataformas/workline/worklineinscritos.png']
+        imageviews: [ '/assets/plataformas/atmosfera/atmosfera1.png', '/assets/plataformas/atmosfera/atmosfera2.png', '/assets/plataformas/atmosfera/atmosfera3.png']
     },
     {
         title: "Workline",
@@ -48,7 +60,7 @@ export const infoProyectos: Array<infoproydto>= [
         objetive: "Dar seguimiento a clientes para el conjunto de servicios que adquieren durante su visita presencial al establecimiento",
         tools_tech: "Postgresql - NodeJs - ExpressJS - NextJS - Docker - Nginx - VPS - Vercel",
         challenge: "Entre las funcionalidades mas destacadas tenemos: . Seguimiento de los diferentes tipos de ticket, tanto para pase diario con promociones incluidas o seguimiento individual de servicios utilizados.. Impresion de tickets con el detalle del consumo.. personalizacion de cupones de descuento detallados considerada esta mecanica como una de las mas importantes debido al inicio de campañas de marketing para captación de clientes.",
-        imageviews: [ '/assets/plataformas/atmosfera/atmosferadescuento.png', '/assets/plataformas/atmosfera/atmosferadetalle.png', '/assets/plataformas/atmosfera/atmosferatickets.png']
+        imageviews: [ '/assets/plataformas/workline/workline1.png', '/assets/plataformas/workline/workline2.png', '/assets/plataformas/workline/workline3.png']
 
     },
     {
@@ -62,6 +74,19 @@ export const infoProyectos: Array<infoproydto>= [
         tools_tech: "NodeJs - ExpressJS - SocketIO - NextJS - Vercel",
         challenge: "La mecanica principal consiste en manejar el protocolo wss mediante nextjs para interacción con el bot en el servicio backend",
         imageviews: [ '/assets/plataformas/workline/worklineeventos.png', '/assets/plataformas/workline/worklineformulario.png', '/assets/plataformas/workline/worklineinscritos.png']
+
+    },
+    {
+        title: "Componentes para NextJs ",
+        subtitle: "Libreria UI",
+        image: { alt: "LocalFix", url: "/uilibrary.png" },
+        path: "ui_library",
+        url: 'https://github.com/AvielAD/ui-components/pkgs/npm/componentspublish',
+        about_client: "Personal",
+        objetive: "Ejemplo bot preguntas - respuestas",
+        tools_tech: "NodeJs - ExpressJS - SocketIO - NextJS - Vercel",
+        challenge: "La mecanica principal consiste en manejar el protocolo wss mediante nextjs para interacción con el bot en el servicio backend",
+        imageviews: [ '/assets/plataformas/uilibrary/ui1.png', '/assets/plataformas/uilibrary/ui2.png', '/assets/plataformas/uilibrary/ui3.png']
 
     },
     {
@@ -87,7 +112,7 @@ export const infoProyectos: Array<infoproydto>= [
         objetive: "",
         tools_tech: "NextJs - Vercel",
         challenge: "",
-        imageviews: [ '/assets/plataformas/workline/worklineeventos.png', '/assets/plataformas/workline/worklineformulario.png', '/assets/plataformas/workline/worklineinscritos.png']
+        imageviews: [ '/assets/plataformas/localfix/localfix1.png', '/assets/plataformas/localfix/localfix2.png', '/assets/plataformas/localfix/localfix3.png']
 
     }
 
