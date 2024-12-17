@@ -13,7 +13,7 @@ const Page = ({ params }: { params: { name: string } }) => {
                     proy?.imageviews?.map((item, index) => (
                         <div key={index} className="col-span-1">
                             <div className="relative h-60 w-full">
-                                <Image className="rounded-lg" key={index} src={item} alt="imagen no disponible" fill></Image>
+                                <Image className="rounded-lg object-contain" key={index} src={item} alt="imagen no disponible" fill></Image>
                             </div>
                         </div>))
                 }

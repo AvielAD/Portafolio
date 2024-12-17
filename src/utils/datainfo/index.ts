@@ -35,7 +35,7 @@ export const infoProyectos: Array<infoproydto>= [
         about_client: "Personal - Servicio control inventario.  Claves Acceso.  Usuario: invitado@email.mx .   Contraseña: Invitado",
         objetive: "Plataforma pensada para gestionar flujo de inventario para productos peresederos con diferentes embalajes",
         tools_tech: "Postgresql - .Net - EF Core - Docker - Nginx - VPS - NextJS - Vercel",
-        challenge: "La plataforma tiene un conjunto de caracteristicas interesantes. Al agregar una reparación se cuenta con un listado dinamico para registrar el tipo de dispositivo del que se esta tratando acorde a puntaje de mas frecuentes.. Se cuenta con gestion de estados para una mejor gestion, desde que el dispositivo es ingresado para la reparacion, cuando esta se ha concluido y finalmente entregado.. Contamos con la posibilidad de imprimir ticket con el detalle de la reparación incluyendo el diagnostico reparacion y fechas de interes recepcion y entrega.",
+        challenge: "La plataforma gestiona el flujo de inventario para productos peresederos. compra, venta y merma son las caracteristicas administradas.. configuracion de categorias y revision del inventario existente.",
         imageviews: [ '/assets/plataformas/pmmanager/pmmanager1.png', '/assets/plataformas/pmmanager/pmmanager2.png', '/assets/plataformas/pmmanager/pmmanager3.png']
     },
     {
@@ -66,14 +66,14 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Bot NLP",
         subtitle: "Chat Web",
-        image: { alt: "LocalFix", url: "/frontbot.png" },
+        image: { alt: "LocalFix", url: "/botnlp1.png" },
         path: "bot_nlp",
         url: 'https://frontbot.vercel.app/',
         about_client: "Personal",
         objetive: "Ejemplo bot preguntas - respuestas",
         tools_tech: "NodeJs - ExpressJS - SocketIO - NextJS - Vercel",
         challenge: "La mecanica principal consiste en manejar el protocolo wss mediante nextjs para interacción con el bot en el servicio backend",
-        imageviews: [ '/assets/plataformas/workline/worklineeventos.png', '/assets/plataformas/workline/worklineformulario.png', '/assets/plataformas/workline/worklineinscritos.png']
+        imageviews: [ '/assets/plataformas/botnlp/botnlp1.png', '/assets/plataformas/botnlp/botnlp2.png']
 
     },
     {
@@ -83,9 +83,9 @@ export const infoProyectos: Array<infoproydto>= [
         path: "ui_library",
         url: 'https://github.com/AvielAD/ui-components/pkgs/npm/componentspublish',
         about_client: "Personal",
-        objetive: "Ejemplo bot preguntas - respuestas",
+        objetive: "Libreria componentes para dashboard",
         tools_tech: "NodeJs - ExpressJS - SocketIO - NextJS - Vercel",
-        challenge: "La mecanica principal consiste en manejar el protocolo wss mediante nextjs para interacción con el bot en el servicio backend",
+        challenge: "Se cuenta con un grupo de elementos ui para Nextjs con tailwindcss, Banner, Card, Header, SideBar, Hooks Personalizados.",
         imageviews: [ '/assets/plataformas/uilibrary/ui1.png', '/assets/plataformas/uilibrary/ui2.png', '/assets/plataformas/uilibrary/ui3.png']
 
     },
@@ -96,23 +96,23 @@ export const infoProyectos: Array<infoproydto>= [
         path: "landing_atmosfera",
         url: 'https://dev.atmosfera.la/',
         about_client: "Personal - Chat ",
-        objetive: "establecer una demo de chat basico para interaccion conversacional con la libreria nlpjs preguntas y respuestas.",
+        objetive: "Pagina Landing para la promocion del sitio web promocional para cursos presenciales",
         tools_tech: "NextJS - Vercel",
         challenge: "",
-        imageviews: [ '/assets/plataformas/workline/worklineeventos.png', '/assets/plataformas/workline/worklineformulario.png', '/assets/plataformas/workline/worklineinscritos.png']
+        imageviews: [ '/assets/plataformas/landinglocalfix/llocalfix1.png', '/assets/plataformas/landinglocalfix/llocalfix2.png', '/assets/plataformas/landinglocalfix/llocalfix3.png']
 
     },
     {
         title: "Landing Page LocalFix",
         subtitle: "Web",
-        image: { alt: "LocalFix", url: "/landinglocalfix.png" },
+        image: { alt: "LocalFix", url: "/llocalfix1.png" },
         path: "landing_localfix",
         url: 'https://localfix.mx',
         about_client: "",
-        objetive: "",
+        objetive: "Pagina Landing con la descripción de algunos servicios para la pagina de reparacion de equipo eletronico.",
         tools_tech: "NextJs - Vercel",
         challenge: "",
-        imageviews: [ '/assets/plataformas/localfix/localfix1.png', '/assets/plataformas/localfix/localfix2.png', '/assets/plataformas/localfix/localfix3.png']
+        imageviews: [ '/assets/plataformas/landinglocalfix/llocalfix1.png', '/assets/plataformas/landinglocalfix/llocalfix2.png', '/assets/plataformas/landinglocalfix/llocalfix3.png' ]
 
     }
 
