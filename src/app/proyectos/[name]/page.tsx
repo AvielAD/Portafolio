@@ -27,6 +27,7 @@ const Page = ({ params }: { params: { name: string } }) => {
                         <h3 className="mb-2 text-2xl">View</h3>
                         <div className="">
                             <a href={proy?.url}>{proy?.url}</a>
+                            <a href={proy?.urlback}>{proy?.urlback}</a>
                         </div>
                     </div>
 

@@ -1,6 +1,4 @@
-'use client'
 import CardProyect from '@/components/Card'
-import Link from 'next/link'
 import Image from 'next/image'
 import { infoProyectos } from '@/utils/datainfo'
 

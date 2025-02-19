@@ -13,7 +13,7 @@ const Index = () => {
                 <div className="hidden md:flex justify-center">
                     <ul className="inline-flex">
                         <li className=""><Link href="/">Inicio</Link></li>
-                        <li className="ml-6"><Link href="/proyectos">Proyectos</Link></li>
+                        <li className="ml-6"><Link href="/">Proyectos</Link></li>
                         <li className="ml-6"><Link href="">Acerca de</Link></li>
                         <li className="ml-6"><Link href="">Contacto</Link></li>
                     </ul>
