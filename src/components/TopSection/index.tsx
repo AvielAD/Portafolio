@@ -1,5 +1,6 @@
 import Image from "next/image"
 import ImageTech from '../../../public/assets/mk2.png'
+
 const Index = () => {
     return (
         <section className="max-w-screen-xl mx-auto pt-20">
@@ -9,8 +10,7 @@ const Index = () => {
                     <p className="text-2xl">Desarrollador web full stack</p>
                 </div>
                 <div className="hidden md:col-span-3 md:grid md:justify-center">
-                        <Image src={ImageTech} alt="top section" className="rounded-lg" height="400" width="500"></Image>
-                    
+                    <Image src={ImageTech} alt="top section" className="rounded-lg" height="400" width="500"></Image>
                 </div>
             </div>
         </section>

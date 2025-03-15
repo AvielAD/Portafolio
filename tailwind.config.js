@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns:{
+        'sidebarlx': '10% 1fr',
+        'sidebar': '1fr',
+      },
+      gridTemplateRows:{
+        'headerlx': '6% 1fr',
+        'header': '6% 1fr'
+      }
+    },
   },
   plugins: [],
 }

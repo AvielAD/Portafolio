@@ -1,6 +1,6 @@
 import "./globals.css";
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import HeaderTop from '@/components/HeaderTop'
+import TopSection from "@/components/ComponentsTailwind/TopBar";
 
 export default function RootLayout({
   children,
@@ -10,10 +10,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <title>Proyectos</title>
-
       <body>
-        <HeaderTop></HeaderTop>
-        {children}
+        <div className="md:border-b">
+          <TopSection ></TopSection>      
+        </div>
+
+        {//children
+        }
+
       </body>
 
     </html>
