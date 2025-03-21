@@ -15,8 +15,7 @@ export default function RootLayout({
           <TopSection ></TopSection>      
         </div>
 
-        {//children
-        }
+        {children}
 
       </body>
 
