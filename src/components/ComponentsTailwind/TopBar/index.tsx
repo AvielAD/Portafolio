@@ -12,9 +12,9 @@ export default function MobileMenu() {
         <div className="fixed w-full border-2 border-solid md:backdrop-blur-md">
             <div className={`max-w-screen-xl mx-auto`}>
                 <div className={`hidden md:grid md:grid-rows-1 md:grid-cols-2 p-6`}>
-                    <Link href={"#"}><span className="text-2xl">Portafolio</span></Link>
+                    <Link href={"#topsection"}><span className="text-2xl">Portafolio</span></Link>
                     <nav className="flex gap-4">
-                        <li><Link href={'#topsection'}>Acerca de</Link></li>
+                        <li><Link href={'#aboutsection'}>Acerca de</Link></li>
                         <li><Link href={'#proyectsection'}>Proyectos</Link></li>
                         <li><Link href={'#skillsection'}>Habilidades</Link></li>
                         <li><Link href={'#'}>Experiencia</Link></li>
@@ -28,7 +28,8 @@ export default function MobileMenu() {
                 <div onClick={onClose} className={`${open ? "" : "hidden"} md:hidden w-full absolute flex justify-end backdrop-blur-sm`}>
                     <div onClick={(e) => e.stopPropagation()} className="w-1/2 shadow-lg p-2 bg-gray-100 h-screen">
                         <div className={`${open ? "" : "hidden"} flex justify-between`}>
-                            <div>Portafolio</div>
+                        <Link href={"#topsection"}><span className="text-2xl">Portafolio</span></Link>
+
                             <button onClick={onClose}>
                                 <i className="bi bi-x-lg"></i>
 
@@ -36,7 +37,7 @@ export default function MobileMenu() {
                         </div>
                         <div className="">
                             <nav className={`mt-6 flex flex-col space-y-4`}>
-                                <li><Link href={'#topsection'} className="text-lg font-medium transition-colors hover:text-primary">Acerca de</Link></li>
+                                <li><Link href={'#aboutsection'} className="text-lg font-medium transition-colors hover:text-primary">Acerca de</Link></li>
                                 <li><Link href={'#proyectsection'} className="text-lg font-medium transition-colors hover:text-blue-500">Proyectos</Link></li>
                                 <li><Link href={'#skillsection'}>Habilidades</Link></li>
                                 <li><Link href={'#'}>Experiencia</Link></li>

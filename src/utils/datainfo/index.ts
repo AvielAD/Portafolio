@@ -18,7 +18,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Admin LocalFix",
         subtitle: "Aplicación Web",
-        image: { alt: "LocalFix", url: "/localfix.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/localfix/adminlocalfix.png" },
         path: "localfix",
         url: 'https://applocalfix.softwarp.net/login',
         urlback: 'https://backapplocalfix.softwarp.net/swagger/index.html',
@@ -31,7 +31,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Control Productos",
         subtitle: "Aplicación Web",
-        image: { alt: "LocalFix", url: "/pmmanager.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/pmmanager/inventario.png" },
         path: "pmmanager",
         url: 'https://managerpm.softwarp.net/login',
         urlback: 'https://backapppm.softwarp.net/swagger/index.html',
@@ -44,7 +44,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Inscripción a cursos",
         subtitle: "Aplicación web",
-        image: { alt: "LocalFix", url: "/atmosfera.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/atmosfera/atmosfera.png" },
         path: "inscripcion_curso",
         url: 'https://dev.softwarp.net/login',
         about_client: "Personal - plataforma de seguimiento de capacitaciones",
@@ -56,7 +56,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Workline",
         subtitle: "Aplicación web",
-        image: { alt: "LocalFix", url: "/workline.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/workline/workline.png" },
         path: "workline",
         url: 'https://dev.softwarp.net/login',
         about_client: "Workline - plataforma de seguimiento a servicios para una cafeteria",
@@ -69,7 +69,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Bot NLP",
         subtitle: "Chat Web",
-        image: { alt: "LocalFix", url: "/botnlp1.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/uilibrary/npmreact.png" },
         path: "bot_nlp",
         url: 'https://frontbot.vercel.app/',
         about_client: "Personal",
@@ -82,7 +82,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Componentes para NextJs ",
         subtitle: "Libreria UI",
-        image: { alt: "LocalFix", url: "/uilibrary.png" },
+        image: { alt: "LocalFix", url: "/assets/plataformas/pmmanager/inventario.png" },
         path: "ui_library",
         url: 'https://github.com/AvielAD/ui-components/pkgs/npm/componentspublish',
         about_client: "Personal",
@@ -95,7 +95,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Landing Page Atmosfera",
         subtitle: "Web",
-        image: { alt: "LocalFix", url: "/landingatmosfera.png" },
+        image: { alt: "LocalFix", url: "/landing.png" },
         path: "landing_atmosfera",
         url: 'https://dev.softwarp.net/',
         about_client: "Personal - Chat ",
@@ -108,7 +108,7 @@ export const infoProyectos: Array<infoproydto>= [
     {
         title: "Landing Page LocalFix",
         subtitle: "Web",
-        image: { alt: "LocalFix", url: "/llocalfix1.png" },
+        image: { alt: "LocalFix", url: "/landing.png" },
         path: "landing_localfix",
         url: 'https://localfix.mx',
         about_client: "",

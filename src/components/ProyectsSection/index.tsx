@@ -1,25 +1,27 @@
 import CardProyect from '@/components/Card'
-import Image from 'next/image'
 import { infoProyectos } from '@/utils/datainfo'
 
 const Page = () => {
     return (
-        <section className='max-w-screen-xl mx-auto pt-20'>
-            <div className='text-center font-bold mb-20 font-sans'>
-                <p className='text-4xl'>Proyectos</p>
-            </div>
-            
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-10 p-5 justify-center'>
-                {
-                    infoProyectos?.map((item: any, index: number) => {
-                        return (
-                            <CardProyect key={index} title={item.title} subtitle={item.subtitle} image={item.image} path={item.path}></CardProyect>
-                        )
-                    })
-                }
+        <div className='max-w-screen-xl mx-auto flex justify-center items-center'>
+            <div className=''>
+                <div className='text-center font-bold font-sans'>
+                    <p className='text-4xl'>Proyectos</p>
+                </div>
+
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+                    {
+                        infoProyectos?.map((item: any, index: number) => {
+                            return (
+                                <CardProyect key={index} title={item.title} subtitle={item.subtitle} image={item.image} path={item.path}></CardProyect>
+                            )
+                        })
+                    }
+
+                </div>
 
             </div>
-        </section>
+        </div>
     )
 }
 
