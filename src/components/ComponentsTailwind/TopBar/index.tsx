@@ -9,7 +9,7 @@ export default function MobileMenu() {
         setOpen(!open)
     }
     return (
-        <div className="fixed w-full border-2 border-solid md:backdrop-blur-md">
+        <div className="fixed w-full border-2 border-solid md:backdrop-blur-md z-50">
             <div className={`max-w-screen-xl mx-auto`}>
                 <div className={`hidden md:grid md:grid-rows-1 md:grid-cols-2 p-6`}>
                     <Link href={"#topsection"}><span className="text-2xl">Portafolio</span></Link>
