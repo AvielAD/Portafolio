@@ -1,6 +1,6 @@
 import TopSection from '@/components/ComponentsTailwind/TopSection'
 import SkillsSection from '@/components/SkillsSection'
-import ProyectSection from '@/components/ProyectsSection'
+import ProyectSection from '@/components/ComponentsTailwind/ProyectsSection'
 import AboutSection from '@/components/ComponentsTailwind/AboutSection'
 
 export default function Home() {
