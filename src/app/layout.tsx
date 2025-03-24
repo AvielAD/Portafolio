@@ -12,10 +12,12 @@ export default function RootLayout({
       <title>Proyectos</title>
       <body>
         <div className="md:border-b">
-          <TopSection ></TopSection>      
+          <TopSection ></TopSection>
         </div>
 
-        {children}
+        <div className="">
+          {children}
+        </div>
 
       </body>
 
